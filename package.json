@@ -1,0 +1,23 @@
+{
+  "name": "meetings",
+  "version": "1.0.0",
+  "description": "Sample app using nodemailer",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "icalevent": "^0.3.2",
+    "moment": "^2.26.0",
+    "moments": "0.0.2",
+    "nodemailer": "^4.7.0",
+    "nodemon": "^2.0.4",
+    "prettier": "^2.0.5",
+    "socketio": "^1.0.0"
+  }
+}

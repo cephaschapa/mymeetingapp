@@ -1,0 +1,116 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+.landing-section {
+  width: 100%;
+  min-height: 60vh;
+  background: url("../images/image_home.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
+.landing-btn {
+  position: relative;
+  top: 50px;
+}
+
+.sign-in-btn {
+  width: 90%;
+  border-radius: 30px;
+}
+
+.form-sign-in {
+  padding-top: 50px !important;
+  background: #f9f9f9 !important;
+  position: relative;
+  top: 100px;
+  margin: auto;
+}
+
+.signup-landing {
+  min-height: auto;
+  background: url("../images/image_meetings.jpg") no-repeat center;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.form-sign-in {
+  position: relative;
+  top: 50px;
+  border-radius: 30px;
+}
+
+.sign-in-heading {
+  border-radius: 30px;
+  border-top-left-radius: 30px;
+  top: 55px;
+}
+.main-header {
+  min-height: 70vh !important;
+  background: url("../images/image_meetings.jpg") no-repeat center;
+}
+.signin-header {
+  min-width: 0px;
+}
+
+#renderer {
+  height: 470px !important;
+  border-radius: 0px;
+  background: #222f3e;
+}
+.chat-area {
+  height: 470px;
+  /* background: #576574; */
+}
+.control-butns {
+  position: relative;
+  box-shadow: none !important;
+  top: -100px;
+}
+.control-butns button {
+  background-color: transparent !important;
+  color: white !important;
+  height: 60px !important;
+  width: 60px !important;
+  border: 1px solid #c8d6e5;
+  border-radius: 50px;
+}
+.connect-btn {
+  position: relative !important;
+  top: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.chat-area {
+  min-height: 70vh;
+}
+.indicator {
+  background: #2196f3 !important;
+}
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
+  background-color: #2196f3;
+  outline: none;
+  color: #fff !important;
+  transition: color 0.28s ease, background-color 0.28s ease;
+}
+
+.guest {
+  background-color: #2196f3 !important;
+  color: #fff !important;
+  border-radius: 30px !important;
+  position: relative;
+  top: -5px;
+  opacity: 0.5 !important;
+}
+.selfview {
+  border-radius: 30px !important;
+  position: relative;
+  top: -30px;
+}
+.main-wrapper{
+  border-radius: 30px !important;
+  min-height: 900px !important;
+}
